@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    color: black;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*=========First Section==============*/
+.first-section {
+    background-color: rgb(222, 216, 216);
+}
+
+.first-section h2 {
+    color:  rgb(165, 72, 6);
+    font-weight: 700; 
+    font-size: 50px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-button {
+    float: right;
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.serf li {
+    list-style: none;
+    line-height: 3em;
+}
+
+.nav {
+    list-style: none;
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 40px;
+    color: rgb(129, 120, 120);
+    transition: border-bottom 0.3s ;
+}
+
+.nav li:hover,
+.nav li:active {
+    display: inline-block;
+    margin-left: 40px;
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(165, 72, 6);
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.lang {
+    float: right;
+    margin-left: 70px;
+    border: none;
+    background-color: rgb(222, 216, 216);
+    font-weight: 600;
+}
+
+.lady img {
+    height: 600px;
+    position: relative; bottom: 380px; right: 80px;
+    float: right;
+    clip-path: circle();
+}
+
+.first-section h1  {
+    margin-top: 70px;
+}
+
+
+/*=======BUTTONS=========*/
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 2px solid rgb(165, 72, 6);
+    color:  rgb(165, 72, 6);
+    padding: 15px 35px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background: rgb(165, 72, 6) ;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+.btn-full:link, 
+.btn-full:visited{
+    background: rgb(165, 72, 6) ;
+    color: white;
+    position: relative; top: 80px;
+    padding: 16px 35px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(138, 60, 5) ;
+    color: white;
+    position: relative; top: 80px;
+    padding: 16px 35px;
+    border-radius: 5px;
+}
+
+/*=======Second Section=========*/
+.second-section {
+    padding-top: 60px;
+}
+
+.second-section img{
+ height: 300px;
+ clip-path: circle();
+}
+
+.second-section p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.images {
+    border: 1px solid rgb(143, 13, 13);
+    position: relative; bottom: 30px;
+}
+
+.second-section h4 {
+        text-align: center;
+        margin-top: 30px;
+}
+
+.second-section i {
+    margin-top: 70px;
+    background-color: rgb(138, 60, 5);
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    position: relative; left: 110px;
+}
+
+.second-section h3 {
+    text-align: center;
+    position: relative; top: 40px;
+}
+
+/*=======third Section=========*/
+.third-section {
+    background: linear-gradient(-0deg,rgb(255, 255, 255) , rgb(222, 216, 216));
+    padding-top: 60px;
+}
+.third-section h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(165, 72, 6) ;
+}
+
+.third-section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: rgb(138, 60, 5);
+    margin-top: 60px;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.third-section img {
+    float: right;
+    position: relative;bottom: 283px; right: 220px;
+    height: 283px;
+}
+
+.third-section p {
+    text-align: left;
+    margin: 30px 0px 0px 80px;
+    color: rgb(202, 200, 200);
+    padding-bottom: 81px;
+}
+
+.third-section h4 {
+    color: white;
+    margin-left: 80px;
+    padding-top: 40px;
+}
+
+/*=======fourth Section=========*/
+.fourth-section {
+    background-color:rgb(222, 216, 216);
+    padding-top: 40px;
+}
+
+.img img{
+    height: 100px;
+}
+
+.fourth-section h4 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;top: 30px;
+}
+
+.fourth-section p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  /*=======fifth Section=========*/
+  .fifth-section .box {
+      background-color: rgb(138, 60, 5);
+      margin-top: 80px;
+  }
+
+  .fifth-section .box p:before {
+      content: "\201c";
+      font-size: 400%;
+      display: block;
+  } 
+
+  .fifth-section .box p {
+      text-align: center;
+      color: rgb(202, 200, 200);
+      padding: 40px;
+  }
+
+.fifth-section h5 {
+    text-align: right;
+    color:  rgb(202, 200, 200);
+}
+
+.long-copy p {
+    position: relative;top: 50px;
+    font-size: 22px;
+}
+
+.last-button {
+    float: right;
+    margin-left: 70px;
+    display: inline-block;
+    position: relative; bottom: 65px;
+}
+
+ /*=======Last Section=========*/
+.last-section {
+    background-color: rgb(222, 216, 216);
+    margin-top: 60px; 
+    padding-top: 60px;
+}
+
+.last-section h2,h4 {
+   text-align: center;
+   line-height: 2em;
+}
+
+.last-section a {
+    display: block;
+    font-size: 22px;
+    color: rgb(129, 120, 120);
+    text-align: center;
+    transition: color 0.3s;
+    line-height: 1.5em;
+}
+
+.last-section a:hover,
+.last-section a:active {
+    display: block;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+} 
+/*=======Footer=========*/
+.main-footer {
+     padding: 15px 0px 15px 0px;
+}
+
+.main-footer a {
+    color: rgb(78, 75, 75);
+    font-size: 20px;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.main-footer a:hover,
+.main-footer a:active {
+    color: rgb(138, 60, 5);
+}
+
+.main-footer h6 {
+    text-align: center;
+    position: relative; bottom: 12px;
+}

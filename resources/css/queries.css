@@ -1,0 +1,244 @@
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* small tablet to big tablets : from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .row { padding: 0 2%;}
+    .nav li {
+        display: inline-block;
+        margin-left: 40px;
+        color: rgb(129, 120, 120);
+        transition: border-bottom 0.3s ;
+        position: relative; bottom: 69px;
+    }
+    .lang {
+        margin-left: 20px;
+        border: none;
+        background-color: rgb(222, 216, 216);
+        font-weight: 300;
+        position: relative;top: 10px;
+    }
+    .lady img {
+        height: 450px;
+        position: relative; bottom: 330px; right: 0px;
+        float: right;
+        clip-path: circle();
+    }
+    .second-section img{
+        height: 200px;
+        clip-path: circle();
+       }
+       .nav-button {
+        float: right;
+        margin-left: 70px;
+        display: inline-block;
+        position: relative;top: 10px;
+    }
+    
+       .second-section i {
+        margin-top: 70px;
+        background-color: rgb(138, 60, 5);
+        border-radius: 50%;
+        padding: 20px;
+        color: white;
+        position: relative; left: 50px;
+    }
+    .third-section img {
+        float: right;
+        position: relative;bottom: 283px; right: 20px;
+        height: 283px;
+    }
+    .img img{
+        height: 85px;
+    }
+    .long-copy p {
+        font-size: 17px;
+        position: relative;top: 50px; right: 80px;
+    }
+    
+.last-button {
+    display: inline-block;
+    position: relative; bottom: 10px; right: 270px;
+}
+ }
+
+/* small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .row { padding: 0 2%;}
+    .nav li {
+        display: inline-block;
+        margin-left: 20px;
+        color: rgb(129, 120, 120);
+        transition: border-bottom 0.3s ;
+        position: relative; bottom: 55px;
+        font-size: 15px;
+    }
+    .first-section h2 {
+        color:  rgb(165, 72, 6);
+        font-weight: 600; 
+        font-size: 28px; 
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .first-section h1  {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .lady img {
+        height: 230px;
+        position: relative; bottom: 220px; right: -18px;
+        float: right;
+        clip-path: circle();
+    }
+    .serf li {
+        list-style: none;
+        line-height: 3em;
+        font-size: 15px;
+    }
+    .second-section img{
+        height: 120px;
+        clip-path: circle();
+       }
+       .second-section i {
+        margin-top: 70px;
+        background-color: rgb(138, 60, 5);
+        border-radius: 50%;
+        padding: 20px;
+        color: white;
+        position: relative; left: 25px;
+    }
+    .second-section h4 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 15px;
+}
+.third-section p {
+    text-align: left;
+    margin: 30px 0px 0px 30px;
+    color: rgb(202, 200, 200);
+    padding-bottom: 81px;
+}
+
+.third-section img {
+    float: right;
+    position: relative;bottom: 374px; right: -100px;
+    height: 374px;
+}
+.long-copy p {
+    font-size: 15px;
+    position: relative;top: 50px; right: -15px;
+}
+
+.last-button {
+display: inline-block;
+position: relative; bottom: 10px; right: 150px;
+}
+.main-footer h6 {
+    text-align: center;
+    position: relative; bottom: -10px;
+}
+}
+
+/* small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .row { padding: 0 2%;}
+    .nav li {
+        display: inline-block;
+        margin-left: 3px;
+        color: rgb(129, 120, 120);
+        transition: border-bottom 0.3s ;
+        position: relative; bottom: 55px;
+        font-size: 13px;
+    }
+    .nav li:hover,
+    .nav li:active {
+    display: inline-block;
+    margin-left: 3px;
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(165, 72, 6);
+}
+    .lang {
+        font-size: 14px;
+    }
+    .serf li {
+        list-style: none;
+        line-height: 3em;
+        font-size: 12px;
+    }
+    .lady img {
+        height: 200px;
+        position: relative; bottom: 200px; right: -20px;
+        float: right;
+        clip-path: circle();
+    }
+    
+.btn-ghost:link, 
+.btn-ghost:visited{
+    border: 2px solid rgb(165, 72, 6);
+    color:  rgb(165, 72, 6);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border:  1px solid rgb(214, 209, 209);
+    background: rgb(165, 72, 6) ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-full:link, 
+.btn-full:visited{
+    background: rgb(165, 72, 6) ;
+    color: white;
+    position: relative; top: 80px;
+    padding: 11px 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background: rgb(138, 60, 5) ;
+    color: white;
+    position: relative; top: 80px;
+    padding: 11px 20px;
+    border-radius: 5px;
+}
+.second-section img{
+        height: 120px;
+        clip-path: circle();
+        position: relative; left: 100px; top: 10px;
+       }
+       .second-section i {
+        margin-top: 70px;
+        background-color: rgb(138, 60, 5);
+        border-radius: 50%;
+        padding: 20px;
+        color: white;
+        position: relative; left: 140px;
+    }
+    .third-section img {
+        float: right;
+        position: relative;bottom: 50px; right: 0px;
+        height: 374px;
+    }
+    .img img{
+        height: 100px;
+        position: relative; left: 100px; top: 20px;
+    }
+    .long-copy p {
+        font-size: 13px;
+        position: relative;top: 50px; right: -5px;
+    }
+    
+    .last-button {
+    display: inline-block;
+    position: relative; bottom: 10px; right: 110px;
+    }
+}
